@@ -1,6 +1,7 @@
-import { resolve } from 'path'
+import { resolve } from 'path';
 
 export default {
+  base: '/Aromatic-Avenues/',
   root: resolve(__dirname, 'src'),
   build: {
     outDir: '../dist'
@@ -8,4 +9,4 @@ export default {
   server: {
     port: 8080
   }
-}
+};
